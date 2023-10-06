@@ -45,7 +45,8 @@ public class HourlyEmployee extends Employee {
     public void setRatePerHour(float ratePerHour) {
         this.ratePerHour = ratePerHour;
     }
-    
+
+   @Override
     public double computeSalary(){
         double excessHoursTotal;
 
