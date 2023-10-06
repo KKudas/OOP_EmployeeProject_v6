@@ -42,7 +42,8 @@ public class PieceWorkerEmployee extends Employee {
     public void setRatePerPiece(float ratePerPiece) {
         this.ratePerPiece = ratePerPiece;
     }
-    
+
+    @Override
     public double computeSalary(){
         int excessPieces;
         if(this.totalPiecesFinished > 100){
