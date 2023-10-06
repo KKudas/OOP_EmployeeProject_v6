@@ -35,7 +35,7 @@ public class CommissionEmployee extends Employee {
         this.totalSales = totalSales;
     }
     
-    
+    @Override
     public double computeSalary(){
         double rate;
         if (this.totalSales < 50000){
