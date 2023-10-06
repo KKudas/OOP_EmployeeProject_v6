@@ -58,6 +58,7 @@ public abstract class Employee {
         this.empHiredDate = empHiredDate;
     }
 
+    public abstract double computeSalary();
     public static class Name {
         private String firstName;
         private String middleName;
